@@ -2,7 +2,7 @@ import React from 'react'
 
 type Props={
     children:React.ReactNode,
-    isPending:boolean
+    isPending?:boolean
 }
 
 export default function SubmitButton({children,isPending}:Props) {
